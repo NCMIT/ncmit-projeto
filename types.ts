@@ -1,3 +1,4 @@
+
 // types.ts
 
 export interface ItemNotaFiscal {
@@ -43,7 +44,8 @@ export interface Filtros {
   emitente: string;
   valorMin: number;
   valorMax: number;
-  ufDestino: string;
+  ufEmitente: string;
+  limitRecent: number;
 }
 
 export interface Toast {
